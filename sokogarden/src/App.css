@@ -15,7 +15,7 @@
 }
 
 .App-header {
-  background-image: url(240_F_609312487_cnMcTSARF8C4RMMDqkjkYxBBWE3MUH69.jpg);
+background-color: rgb(12, 145, 19);
   min-height: 13vh;
   display: flex;
   flex-direction: column;
@@ -37,4 +37,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.product_img{
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  margin-top: 3;
+}
+.product_img:hover{
+  transform: scale(1.2);
+  transition: 2s;
 }
